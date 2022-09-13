@@ -11357,3 +11357,18 @@ ul li a:hover:before{
   transform-origin:left;
   transform:scaleX(1);
 }
+
+.py-5.bg-footer {
+  background-image: url("/sandbox/assets/img/bg_footer.png");
+  background-repeat: repeat-x;
+}
+.m-0.text-center.text-white {
+  font-weight: bolder;
+  display: table;
+  padding: 15px;
+  font-size: 16px;
+  background-color: #e5e5e5;
+  color: #0074e0 !important;
+  }
+
+  /* img effect */ 
