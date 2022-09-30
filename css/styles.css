@@ -11371,3 +11371,19 @@ ul li a:hover:before{
   color: #0074e0 !important;
   }
 
+/* The Game CSS */ 
+#coffee {
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/544318/coffee-cup.png");
+  background-size: cover;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 250px;
+  height: 250px;
+  transform: translatex(-50%) translatey(-50%);
+  transition: transform 0.2s;
+}
+#coffee:hover {
+  transform: translatex(-50%) translatey(-50%) scale(1.1);
+}
