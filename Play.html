@@ -13,10 +13,8 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="/css/styles.css" rel="stylesheet" />
         <!-- download one nav page for Menu -->
-        <script src="js/jquery-1.10.2.js"></script>
-        <script src="js/game.js"></script><!-- Game JS HERE -->
-
-
+        <script src="/js/jquery-1.10.2.js"></script>
+        <script src="/js/play.js"></script> <!--Game JS HERE -->
     </head>
     <body>
     <!-- import content of header from nav.html -->
@@ -33,27 +31,51 @@
         <!-- Header-->
         <header class="bg-dark py-5">
             <div class="container px-5">
+                                    Here Some Text 
+                                    
                 <div class="row gx-5 justify-content-center">
                     <div class="col-lg-0">
-                        <div class="position-relative">
-                                <!-- Orignal Code https://codepen.io/seanfree/pen/LXWvqZ -->
-                                <div class="coffee">
-                                    00
-
-
-
-
-                                </div>
-
-                    </div>
+                     </div>
                 </div>
             </div>
         </header>
         <!-- Features section-->
         <section class="border-bottom" id="features">
             <div class="container">
+            <!-- Orignal Code https://codepen.io/mikaelguillin/pen/ByqzwL -->
+                <div id="game">
+                    <div class="cup"></div>
+                    <div class="cup"></div>
+                    <div class="cup"></div>
+                    <div class="ball"></div>
+                    <div id="game-result"></div>
+                </div>
+                
+                <button id="btn-play">Play</button>
+                <div class="football-pitch">
+                  <div class="outline marking"></div>
+                  <div class="box left marking"></div>
+                  <div class="box-d left marking"></div>
+                  <div class="box left small marking"></div>
+                  <div class="box right marking"></div>
+                  <div class="box-d right marking"></div>
+                  <div class="box right small marking"></div>
+                  <div class="spot left marking"></div>
+                  <div class="spot right marking"></div>
+                  <div class="spot center marking"></div>
+                  <div class="center-line marking"></div>
+                  <div class="center-circle marking"></div>
+                  <div class="corner top left marking"></div>
+                  <div class="corner top right marking"></div>
+                  <div class="corner bottom left marking"></div>
+                  <div class="corner bottom right marking"></div>
+                  <div class="grass"></div>
+                </div>
+                
+                
+                
                 <div class="row">
-                   <!-- <div class="mb-5 mb-lg-0">
+                    <div class="mb-5 mb-lg-0">
                         <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-collection"></i></div>
                         <div class="card mb-5">
                             <div class="card-body">
